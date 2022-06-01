@@ -3,14 +3,19 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Learning</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link
+      rel="icon"
+      type="immage/x-icon"
+      href="img/favicon/logo-64-filled.ico">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous">
-      <!-- <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' /> -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -19,38 +24,35 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">
-                <img src="img/nav/logo-128.png" height="32px" width="32px">
-                Adda1806</a>
+        <a class="navbar-brand">
+            <img src="/img/nav/logo-128.png" height="32px" width="32px">
+            Adda1806</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navmenu"
-              >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="true" href="/index.html">Home</a>
+            </li>
 
-
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#learn" class="nav-link">What you'll Learn</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#questions" class="nav-link">Questions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#instructors" class="nav-link">Instructurs</a>
-                    </li>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown05">
+                    <li><a class="dropdown-item" href="/projects.html">Projects Home</a></li>
+                    <li><a class="dropdown-item" href="projects/website.html">Website</a></li>
+                <li><a class="dropdown-item disabled" href="">Unknown</a></li>
                 </ul>
-            </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            </ul>
+        </div>
         </div>
     </nav>
     <!-- Navbar END -->
@@ -64,8 +66,7 @@
                         Web Developer
                     </span></h1>
                     <p class="lead my-4">
-                        <!-- We forcus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role -->
-                        Learning bootstrap 5, its cool but still got a ways to go to learn it :)
+                        This website is my first proper try at making a site but i have no real reason to make one so I am filling it with stuff that seems good(ish).
                     </p>
                     <button
                       class="btn btn-primary btn-lg"
@@ -391,26 +392,26 @@
     <!-- Instructors END -->
 
     <!-- Contact & Map -->
-    <section class="p-5">
+    <!-- <section class="p-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-md">
                     <h2 class="text-center mb4">Contact Info</h2>
                     <ul class="list-group list-group-flsh lead">
                         <li class="list-group-item">
-                            <!-- <span class="fw-bold">Main Location:</span> Empire St, Cheetham Hill, Manchester M3 1JD -->
+                            <! -- <span class="fw-bold">Main Location:</span> Empire St, Cheetham Hill, Manchester M3 1JD -- >
                         </li>
                         <li class="list-group-item">
-                            <!-- <span class="fw-bold">Enrollment Phone:</span> 01632 960846 -->
+                            <! -- <span class="fw-bold">Enrollment Phone:</span> 01632 960846 -- >
                         </li>
                         <li class="list-group-item">
-                            <!-- <span class="fw-bold">Student Phone:</span>  01632 960034 -->
+                            <! -- <span class="fw-bold">Student Phone:</span>  01632 960034 -- >
                         </li>
                         <li class="list-group-item">
-                            <!-- <span class="fw-bold">Enrollment Email:</span> enroll@frontendbc.test -->
+                            <! -- <span class="fw-bold">Enrollment Email:</span> enroll@frontendbc.test -- >
                         </li>
                         <li class="list-group-item">
-                            <!-- <span class="fw-bold">Student Email:</span> student@frontendbc.test -->
+                            <! -- <span class="fw-bold">Student Email:</span> student@frontendbc.test -- >
                         </li>
                     </ul>
                 </div>
@@ -419,19 +420,20 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Contact & Map END -->
 
     <!-- Footer -->
     <footer class="p-5 bg-dark text-white text-center position-relative">
         <div class="container">
-            <p class="lead">Copyright &copy; 2022 Frontend Bootcamp</p>
+            <p class="lead"><img src="img/nav/logo-64.png">2022 Unknown</p>
             <a href="#" class="positon-absolute bottom-0 end-0 p-5">
                 <i class="bi bi-arrow-up-circle h1"></i>
             </a>
         </div>
     </footer>
     <!-- Footer END -->
+
 
     <!-- Modal -->
     <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
@@ -471,18 +473,12 @@
       </div>
     <!-- Modal -->
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <!-- <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script> -->
-    <!-- <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoiYWRkYTE4MDYiLCJhIjoiY2wzcXdpZjNyMGdncDNicXB6Z3F6bzZ6YyJ9.aTMOMeA-Zlrd6uJAiXgAgA';
-const map = new mapboxgl.Map({
-container: 'map', // container ID
-style: 'mapbox://styles/mapbox/streets-v11', // style URL
-center: [-2.241686256356699, 53.493510492336036], // starting position [lng, lat]
-zoom: 17 // starting zoom
-});
-    </script> -->
+    <!-- Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+    <!-- Script END -->
 </body>
 
 </html>
