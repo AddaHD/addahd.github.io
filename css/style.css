@@ -1,14 +1,9 @@
-/*  */
-
 body::before{
     display: block;
     content: '';
+    /* Makes the content not interfering with the navbar */
     height: 60px;
 }
-
-.web-code-img-1{
-    padding-left: 20px;
-}
-.web-code-text-1{
-    padding-right: 20px;
+body{
+    background-color: rgb(224, 224, 224);
 }

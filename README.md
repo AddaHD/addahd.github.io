@@ -1,3 +1,3 @@
-# Site01
+addahd.github.io Site
 
-This is the Github for my website that i am in the progress of making.
+Website project for various things.
