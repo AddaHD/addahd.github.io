@@ -27,7 +27,7 @@ ul.efa {
 }
 
 .icon {
-    color: red;
+    color: #a10099;
     padding-right: 10px;
 }
 
@@ -36,6 +36,7 @@ ul.efa {
 }
 
 a:hover {
-    background-color: rgb(160, 0, 0);
+    background-color: #861281;
     border-radius: 3px;
+    text-decoration: none;
 }
