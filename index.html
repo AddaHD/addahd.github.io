@@ -5,18 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/home.css">
+  <script scr="js/home.js"></script>
   <title>Home</title>
 </head>
 
 <body>
-  <ul>
-    <li><a href="#" class="active">Home</a></li>
-    <li><a href="#">Stuff</a></li>
-    <li><a href="#">Projects</a></li>
-    <li><a href="">About</a></li>
-  </ul>
-  <br><br>
-  <div>This is a Test of main</div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="about.html">About</a>
+    <a href="projects/projects.html">Projects</a>
+    <a href="#">Stuff</a>
+  </div>
+  <span onclick="openNav()">Open</span>
+  
+  <div id="main">This is a Test of main
+  </div>
   
 </body>
 
