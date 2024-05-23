@@ -50,3 +50,9 @@
     right: 35px;
   }
 }
+
+.logo {
+  background-color: white;
+  width: 80px;
+  height: 80px;
+}
